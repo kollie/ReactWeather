@@ -13,7 +13,7 @@ module.exports = {
       '$': 'jquery',
       'jQuery': 'jquery'
     })
-  ],  
+  ],
   output: {
     path: __dirname,
     filename: './public/bundle.js'
@@ -28,7 +28,8 @@ module.exports = {
       WeatherMessage: 'app/components/weatherMessage.jsx',
       About: 'app/components/about.jsx',
       Examples: 'app/components/examples.jsx',
-      OpenWeatherMap: 'app/api/OpenWeatherMap.jsx'
+      OpenWeatherMap: 'app/api/OpenWeatherMap.jsx',
+      ErrorModal: 'app/components/ErrorModal.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },
