@@ -4,7 +4,7 @@ var About = (props) => {
   return (
 
     <div>
-      <h1 className="text-center">About</h1>
+      <h1 className="text-center page-title">About</h1>
       <p>This is my first application using React. This applicatin basically lets
         you type the name of any city and get the temperature. I'm'
         actually getting these skills from the Complete React Web Developer Course offered on Udemy.
